@@ -25,7 +25,7 @@
     - props: ok
     - state: 2 
       - use context() (functional component)
-  - フォーム(component)
+  - フォーム(component): ok
     - stete: 1
       - context() か Redux.
 - firebaseで簡易API
