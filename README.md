@@ -3,11 +3,11 @@
 
 # Upgrade情報
 - React v16.7 から「Hooks」が導入されることによって、「関数コンポーネント」でも「state, props」が扱えるようになっている。
-- react-router-dom **v6**から、react-router型定義ファイルに「`export interface match`」がないようで、、[github.com/../react-router/../packages/react-router-dom/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
+- react-router-dom **v6**から、react-router型定義ファイルに「`export interface match`」がないみたいで、[github.com/../react-router/../packages/react-router-dom/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
   - 「Hooks」の `useParams()`
 などで URL params を扱う感じ(たぶん)。<br>
-「Hooks」を使う際は、`fucnctionnal component`で使う必要があるようだ。<br>
-(Classコンポーネントで扱うためには、関数コンポーネントで一旦Classコンポーネントをラップして、渡す...とpropsで受け取れる雰囲気...)。。たぶん
+「Hooks」を使う際は、`functional components`で使う。<br>
+(Classコンポーネントで扱うためには、関数コンポーネントで一旦Classコンポーネントをラップして渡す...とClassコンポーネントでもpropsを受け取れるみたい...)
 
 # 今回参考にした書籍情報
 ![React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影](public/img/book_thumbnail.png "React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影")
@@ -17,10 +17,10 @@
 - 2018年5月9日紙版発売
 - 2018年5月9日電子版発売
    
-# 作成手順
+# Todo 
 - G-Navエリア
-- Containersエリア
-- Containersへの各部品
+- Containersエリア: 各部品を束ねるコンポーネント.
+- Containers 
   - フィード(component)
     - props: ok
     - state: 2 
