@@ -1,22 +1,24 @@
 # 修正履歴
 [commits](https://github.com/ka2yuki/ChatApp-by-React/commits/main)
 
-# Upgrade情報
+# Upgrade情報＆キャッチアップ
 - React v16.7 から「Hooks」が導入されることによって、「関数コンポーネント」でも「state, props」が扱えるようになっている。
-- react-router-dom **v6**から、react-router型定義ファイルに「`export interface match`」がないみたいで、[github.com/../react-router/../packages/react-router-dom/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
+- react-router-dom **v6**から、react-router型定義ファイルに「`export interface match`」がないようで、[github.com/../react-router/../packages/react-router-dom/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
   - 「Hooks」の `useParams()`
 などで URL params を扱う感じ(たぶん)。<br>
 「Hooks」を使う際は、`functional components`で使う。<br>
 (Classコンポーネントで扱うためには、関数コンポーネントで一旦Classコンポーネントをラップして渡す...とClassコンポーネントでもpropsを受け取れるみたい...)
 
-# 今回参考にした書籍情報
-![React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影](public/img/book_thumbnail.png "React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影")
+# 検討・キャッチアップリスト
+- useState()
+- useContext()
+- etc..
 
-- 出版社: 技術評論社 ([出版社のページへ](http://gihyo.jp/book/2018/978-4-7741-9706-7))
-- [Amazon URL](https://www.amazon.co.jp/dp/4774197068/)
-- 2018年5月9日紙版発売
-- 2018年5月9日電子版発売
-   
+参考URL
+- https://ics.media/entry/200409/#%E7%8A%B6%E6%85%8B%E7%AE%A1%E7%90%86%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2
+- https://qiita.com/cheez921/items/7c5f82da375a5988a179
+- https://ja.react.dev/reference/react
+
 # Todo 
 - G-Navエリア
 - Containersエリア: 各部品を束ねるコンポーネント.
@@ -30,6 +32,15 @@
       - context() か Redux.
 - firebaseで簡易API
 - API取得コンポーネント
+
+# 今回参考にした書籍情報
+![React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影](public/img/book_thumbnail.png "React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影")
+
+- 出版社: 技術評論社 ([出版社のページへ](http://gihyo.jp/book/2018/978-4-7741-9706-7))
+- [Amazon URL](https://www.amazon.co.jp/dp/4774197068/)
+- 2018年5月9日紙版発売
+- 2018年5月9日電子版発売
+
   
   
 
