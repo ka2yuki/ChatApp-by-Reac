@@ -1,6 +1,3 @@
-# 修正履歴
-[commits](https://github.com/ka2yuki/ChatApp-by-React/commits/main)
-
 # Upgrade情報＆キャッチアップ
 - React v16.7 から「Hooks」が導入されることによって、「関数コンポーネント」でも「state, props」が扱えるようになっている。
 - react-router-dom **v6**から、react-router型定義ファイルに「`export interface match`」がないようで、[github.com/../react-router/../packages/react-router-dom/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
@@ -15,9 +12,9 @@
 - etc..
 
 参考URL
-- https://ics.media/entry/200409/#%E7%8A%B6%E6%85%8B%E7%AE%A1%E7%90%86%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2
-- https://qiita.com/cheez921/items/7c5f82da375a5988a179
-- https://ja.react.dev/reference/react
+- [状態管理の選択肢 | ICS MEDIA](https://ics.media/entry/200409/#%E7%8A%B6%E6%85%8B%E7%AE%A1%E7%90%86%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2)
+- [ReactのState管理を比較してみた | Qiita](https://qiita.com/cheez921/items/7c5f82da375a5988a179)
+- [js.react.dev](https://ja.react.dev)
 
 # Todo 
 - G-Navエリア
@@ -33,58 +30,19 @@
 - firebaseで簡易API
 - API取得コンポーネント
 
+[Commits履歴](https://github.com/ka2yuki/ChatApp-by-React/commits/main)
+
 # 今回参考にした書籍情報
 ![React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影](public/img/book_thumbnail.png "React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影")
 
-- 出版社: 技術評論社 ([出版社のページへ](http://gihyo.jp/book/2018/978-4-7741-9706-7))
-- [Amazon URL](https://www.amazon.co.jp/dp/4774197068/)
-- 2018年5月9日紙版発売
-- 2018年5月9日電子版発売
-
-  
+- 出版社: 技術評論社
+- [Amazon URL](https://www.amazon.co.jp/React%EF%BC%8CAngular%EF%BC%8CVue-js%EF%BC%8CReact-Native%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E5%AD%A6%E3%81%B6-%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA-%E5%8E%9F-%E4%B8%80%E6%B5%A9-ebook/dp/B07CY1Q6BR?crid=M48TMLURNP1G&dib=eyJ2IjoiMSJ9.KhCjPXDdBLt3wTFhgHYHZBoa51NzL1vt5E0_XiKnIJPjv8xIiyD5z0i6SG-HT7jlzGYobdZVPVzugQ5RByaSRHsqZOGljUUfkVdpRnx0sCmgIkNUeN8kV1_Alus1RegCife3q__OJPSS2zdLtr-_yc5op_GHjvBVxJBUhVaJlSmuebh2UJg_K4QDK3QZgoFpuink4IhfnhOZHNEiwW2RsjjmvfRst4VTHJyxKWgGsxe3jtPK18lJChUUKg7BgqB7MUaba199H3-X3x1t1UbERFJK1PXOhvuRk5O37KOXiJM.Vz9RWspymRGjCbmyUWiPcjyP6eGbVCi-3jMmHYGMPRA&dib_tag=se&keywords=%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA&qid=1721370550&sprefix=%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%2Caps%2C1321&sr=8-1&linkCode=ll1&tag=ka2yukimori-22&linkId=46844d791f54f0a8b2eaa3609f500cd9&language=ja_JP&ref_=as_li_ss_tl)
   
 
 ---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
