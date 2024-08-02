@@ -7,7 +7,7 @@
 (Classコンポーネントで扱うためには関数コンポーネントで一旦Classコンポーネントをラップして渡す...とClassコンポーネントでもpropsを受け取れるみたい...)
 
 # 検討・キャッチアップリスト
-- useState()
+- [x] useState()
 - useContext()
 - etc..
 
@@ -19,14 +19,14 @@
 # Todo 
 - G-Navエリア
 - Containersエリア: 各部品を束ねるコンポーネント.
-- Containers 
-  - フィード(component)
+- Channelコンポーネント 
+  - フィードcomponent
     - props: ok
     - state: 2 
       - use context() (functional component)
-  - フォーム(component): ok
+  - フォームcomponent: ok
     - stete: 1
-      - context() か Redux.
+      - context() か Redux
 - firebaseで簡易API
 - API取得コンポーネント
 
@@ -40,11 +40,11 @@
   
 
 ---
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learn More
+Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
