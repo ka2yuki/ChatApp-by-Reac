@@ -1,9 +1,9 @@
 # version Upgrade情報 ＆ キャッチアップNote
-- React v16.7 から「Hooks」が導入されることによって、「関数コンポーネント」でも「state, props」が扱えるようになっている。
+- [React v16.8](https://github.com/facebook/react/releases/tag/v16.8.0)から 関数コンポーネントでも useState が扱えるようになっている。
 - react-router-dom **v6**からreact-router型定義ファイルに「`export interface match`」がないようで[github.com/../react-router/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
   - たぶん「Hooks」の `useParams()`
 などで URL params を扱う感じ。<br>
-「Hooks」を使う際は、`functional components`で使う。<br>
+「Hooks」を使う際は`functional components`で使う。<br>
 (Classコンポーネントで扱うためには関数コンポーネントで一旦Classコンポーネントをラップして渡す...とClassコンポーネントでもpropsを受け取れるみたい...)
 
 # 検討・キャッチアップリスト
