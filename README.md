@@ -1,5 +1,5 @@
 # version Upgrade情報 ＆ キャッチアップNote
-- [React v16.8](https://github.com/facebook/react/releases/tag/v16.8.0)から useState が扱えるようになっている。
+- [React v16.8](https://github.com/facebook/react/releases/tag/v16.8.0) から useState が扱えるようになっている。
 - react-router-dom **v6**からreact-router型定義ファイルに「`export interface match`」がないようで[github.com/../react-router/index.tsx](https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/index.tsx#L168)
   - たぶん「Hooks」の `useParams()`
 などで URL params を扱う感じ。<br>
@@ -31,7 +31,7 @@
 
 [Commits履歴](https://github.com/ka2yuki/ChatApp-by-React/commits/main)
 
-# 今回参考にした書籍情報
+# 今回参考にした書籍
 ![React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影](public/img/book_thumbnail.png "React、Angular、Vue.js、React Nativeを使って学ぶ はじめてのフロントエンド開発書影")
 
 - 出版社: 技術評論社
