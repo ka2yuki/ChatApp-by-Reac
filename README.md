@@ -17,8 +17,7 @@
 - [js.react.dev](https://ja.react.dev)
 
 # Todo 
-- G-Navエリア
-- Containersエリア: 各部品を束ねるコンポーネント.
+- globalNavエリア
 - Channelコンポーネント 
   - フィードcomponent
     - props: ok
